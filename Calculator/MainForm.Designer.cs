@@ -50,10 +50,12 @@ namespace Calculator
 			// 
 			// textBox1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(0, 27);
+			this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.textBox1.Location = new System.Drawing.Point(0, 24);
+			this.textBox1.MaxLength = 8388608;
 			this.textBox1.Multiline = true;
 			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(419, 312);
+			this.textBox1.Size = new System.Drawing.Size(420, 313);
 			this.textBox1.TabIndex = 0;
 			// 
 			// menuStrip1
